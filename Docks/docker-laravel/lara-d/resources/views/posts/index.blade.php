@@ -22,7 +22,7 @@
                     {{$post->body}}
                 </p>
 
-                <a class="card-link" href="{{route('posts.show',['post_id=>$post->id'])}}">
+                <a class="card-link" href="{{route('posts.show',['post_id'=>$post->id])}}">
                     詳細を見る
                 </a>
             </div>
